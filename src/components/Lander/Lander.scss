@@ -1,0 +1,51 @@
+$kiso-red: #e63746;
+$kiso-white: #f7f4f2;
+$kiso-black: #29393d;
+$Kiso-steel: #718f94;
+
+.jumbo {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  background-color: $kiso-red;
+  max-height: 30vh;
+  max-width: 99vw;
+  margin-left: 0.5vw;
+  margin-top: 2vh;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 5%;
+}
+
+.jumboT {
+  color: $kiso-white;
+  font-size: 20vh;
+  margin-left: 2vw;
+  background-color: transparent;
+}
+.jumboP {
+  color: $kiso-white;
+  font-size: 5vh;
+}
+
+.logo {
+  height: 30vh;
+  width: 35vw;
+  background-color: transparent;
+}
+
+.loginBit {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  border: double 4px $kiso-black;
+}
+.login {
+  width: 50vw;
+  height: 50vh;
+}
+.pic {
+  height: 50vh;
+  width: 50vw;
+  background-color: transparent;
+}
