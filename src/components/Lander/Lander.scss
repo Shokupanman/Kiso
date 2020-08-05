@@ -8,9 +8,9 @@ $Kiso-steel: #718f94;
   align-items: center;
   margin-top: 0;
   background-color: $kiso-red;
-  max-height: 30vh;
-  max-width: 99vw;
-  margin-left: 0.5vw;
+  max-height: 25vh;
+  max-width: 90vw;
+  margin-left: 5vw;
   margin-top: 2vh;
   flex-direction: row;
   justify-content: space-evenly;
@@ -29,8 +29,8 @@ $Kiso-steel: #718f94;
 }
 
 .logo {
-  height: 30vh;
-  width: 35vw;
+  height: 25vh;
+  width: 13vw;
   background-color: transparent;
 }
 
@@ -39,6 +39,8 @@ $Kiso-steel: #718f94;
   display: flex;
   flex-direction: row;
   border: double 4px $kiso-black;
+  max-width: 95vw;
+  margin-left: 1.5vw;
 }
 .login {
   width: 50vw;
